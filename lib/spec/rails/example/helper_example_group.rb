@@ -139,7 +139,7 @@ module Spec
           false
         end
 
-        Spec::Example::ExampleGroupFactory.register(:helper, self)
+        Spec::Example::ExampleGroup.register(:helper, self)
 
       protected
 

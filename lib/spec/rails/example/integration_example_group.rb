@@ -9,7 +9,7 @@ module Spec
   module Rails
     module Example
       class IntegrationExampleGroup < ActionController::IntegrationTest
-        Spec::Example::ExampleGroupFactory.register(:integration, self)
+        Spec::Example::ExampleGroup.register(:integration, self)
       end
     end
   end

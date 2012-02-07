@@ -277,7 +277,7 @@ MESSAGE
 
         end
 
-        Spec::Example::ExampleGroupFactory.register(:controller, self)
+        Spec::Example::ExampleGroup.register(:controller, self)
 
       end
     end

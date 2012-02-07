@@ -8,7 +8,7 @@ module Spec
         
         tests RoutingController
         
-        Spec::Example::ExampleGroupFactory.register(:routing, self)
+        Spec::Example::ExampleGroup.register(:routing, self)
       end
 
     end

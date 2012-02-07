@@ -1,4 +1,4 @@
-require 'spec/mocks/framework'
+require 'rspec/mocks/framework'
 
 module Spec
   module Rails

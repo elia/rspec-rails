@@ -10,15 +10,17 @@ require 'action_controller/integration'
 require 'active_support/test_case'
 require 'active_record/fixtures' if defined?(ActiveRecord::Base)
 
-require 'spec/test/unit'
+# WAS: require 'spec/test/unit'
+require 'test/unit/assertions'
+
 
 require 'spec/rails/matchers'
 require 'spec/rails/mocks'
 require 'spec/rails/example'
 require 'spec/rails/extensions'
-require 'spec/rails/interop/testcase'
+# require 'spec/rails/interop/testcase'
 
-Spec::Example::ExampleGroupFactory.default(ActiveSupport::TestCase)
+# Spec::Example::ExampleGroup.default(ActiveSupport::TestCase)
 
 if ActionView::Base.respond_to?(:cache_template_extensions)
   ActionView::Base.cache_template_extensions = false

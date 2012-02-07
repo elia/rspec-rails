@@ -190,7 +190,7 @@ module Spec
           @controller.template
         end
 
-        Spec::Example::ExampleGroupFactory.register(:view, self)
+        Spec::Example::ExampleGroup.register(:view, self)
 
       protected
         def _assigns_hash_proxy
